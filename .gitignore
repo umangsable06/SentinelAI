@@ -1,0 +1,42 @@
+# =============================================
+# SentinelAI .gitignore
+# Files listed here will NOT be uploaded to Git
+# =============================================
+
+# --- Secrets (NEVER commit these) ---
+.env
+
+# --- Dataset files (too large for Git) ---
+data/raw/
+data/processed/
+*.csv
+*.pcap
+
+# --- Trained models (can be regenerated) ---
+models/*.pkl
+models/*.json
+models/*.joblib
+
+# --- Reports (generated output) ---
+reports/*.html
+reports/*.pdf
+
+# --- Python cache files ---
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# --- Virtual environment ---
+venv/
+.venv/
+env/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDE files ---
+.vscode/
+.idea/
+*.egg-info/

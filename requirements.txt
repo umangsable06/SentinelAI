@@ -1,0 +1,23 @@
+# SentinelAI - Required Python packages
+# Install all at once with: pip install -r requirements.txt
+
+# Data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine learning models
+scikit-learn==1.5.0
+xgboost==2.0.3
+
+# Model saving/loading
+joblib==1.4.2
+
+# Visualization and dashboard
+plotly==5.22.0
+streamlit==1.35.0
+
+# AI explanation layer (Claude)
+anthropic==0.28.0
+
+# Load API keys from .env file
+python-dotenv==1.0.1
